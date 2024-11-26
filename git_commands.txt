@@ -1,0 +1,16 @@
+
+# Clone the repository from GitHub
+git clone <repository-url>
+
+# If You're Pushing a New Repository to GitHub
+git push -u origin main --force
+
+# Check for a Misconfigured Remote
+git remote -v
+
+# If the remote is pointing to the wrong repository, update it:
+git remote set-url origin <your-correct-repository-url>
+
+# Merge with the --allow-unrelated-histories Flag
+git pull origin main --allow-unrelated-histories
+
