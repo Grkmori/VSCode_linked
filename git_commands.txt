@@ -13,4 +13,3 @@ git remote set-url origin <your-correct-repository-url>
 
 # Merge with the --allow-unrelated-histories Flag
 git pull origin main --allow-unrelated-histories
-
